@@ -37,6 +37,38 @@ function Calculator() {
 
     const COLORS = ["#0888FE", "#FF8042"];
 
+    const renderCustomLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+        const RADIAN = Math.PI / 180;
+        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+        const x = cx + radius * Math.cos(-midAngle * RADIAN);
+        const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+        return (
+            <>
+                <text
+                    x={x + 10}
+                    y={y - 6}
+                    fill="white"
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    fontSize={10}
+                >
+                    {chartData[index].name}
+                </text>
+                <text
+                    x={x + 10}
+                    y={y + 6}
+                    fill="white"
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    fontSize={10}
+                >
+                    {chartData[index].value.toFixed(2)}
+                </text>
+            </>
+        );
+    };
+
     return (
         <div className="container">
             <p>Business Loan EMI Calculator</p>
@@ -73,7 +105,7 @@ function Calculator() {
                                 cy="50%"
                                 outerRadius={100}
                                 fill="#8884d8"
-                                label={false}
+                                label={renderCustomLabel}
                             >
                                 {chartData.map((entry, index) => (
                                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

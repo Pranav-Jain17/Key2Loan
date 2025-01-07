@@ -7,10 +7,14 @@ import Footer from "./Footer";
 
 function Home() {
 
+    const handleLogoClick = () => {
+        window.location.reload();
+    };
+
     return (
         <div className="wrapper">
             <div className="navbar">
-                <img src="/assets/logo.png" alt="Logo" />
+                <img src="/assets/logo.png" alt="Logo" onClick={handleLogoClick} />
                 <div className="navtext">
                     <button>Become our Partner</button>
                     <button>Support</button>

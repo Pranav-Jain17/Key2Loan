@@ -70,7 +70,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 3rem;
+    padding: 0 8rem;
 }
 
 .carousel {
@@ -86,7 +86,7 @@ body {
 }
 
 .heading1 {
-    font-size: 40px;
+    font-size: 38px;
     margin: 0%;
     font-weight: bold;
 }
@@ -185,6 +185,7 @@ span {
         width: 20px;
         height: 20px;
     }
+
     .contactbar {
         font-size: 16px;
         gap: 1rem;

@@ -56,10 +56,10 @@ body {
 }
 
 .pieChart {
-    padding: 20px 0px;
     width: calc(40%);
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 /* Tablet View */
