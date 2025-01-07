@@ -26,7 +26,7 @@ function Calculator() {
                     <button>Apply Now</button>
                 </div>
                 <div className="pieChart">
-                    <img src="/src/assets/carousel_img1.png" alt="pie-chart" />
+                    <img src="/public/assets/carousel_img1.png" alt="pie-chart" />
                 </div>
             </div>
         </div>

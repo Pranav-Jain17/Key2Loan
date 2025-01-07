@@ -23,7 +23,7 @@ function Features() {
                     </span>
                 </div>
                 <div className="image">
-                    <img src="/src/assets/logo.png" alt="logo" />
+                    <img src="/public/assets/logo.png" alt="logo" />
                 </div>
             </div>
 
@@ -40,12 +40,12 @@ function Features() {
                         <button>Know More</button>
                     </div>
                     <div className="image">
-                        <img src="/src/assets/Features-img1.png" alt="logo" />
+                        <img src="/public/assets/Features-img1.png" alt="Feature1-image" />
                     </div>
                 </div>
                 <div className="feature2">
                     <div className="image">
-                        <img src="/src/assets/Features_img2.png" alt="logo" />
+                        <img src="/public/assets/Features_img2.png" alt="Feature2-image" />
                     </div>
                     <div className="feature-details feature-details2">
                         <h1>Secured Business Loan</h1>
