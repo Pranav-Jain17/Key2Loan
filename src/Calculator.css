@@ -21,6 +21,8 @@ body {
 .calculator {
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .calculator_form {
@@ -33,9 +35,9 @@ body {
 }
 
 .calculator_form button {
-    height: 50px;
+    height: 35px;
     font-size: 18px;
-    padding: 10px 10px;
+    padding: 8px 10px;
     color: white;
     background-color: black;
     border-radius: 10px;
@@ -48,7 +50,6 @@ body {
     height: 40px;
     font-size: 18px;
     padding: 0px 10px;
-    color: white;
     border: 1px solid rgba(0, 0, 0, 1);
     border-radius: 10px;
     width: auto;
@@ -61,13 +62,6 @@ body {
     justify-content: center;
 }
 
-.pieChart img {
-    width: 300px;
-    height: 300px;
-}
-
-/* Media Queries for Responsiveness */
-
 /* Tablet View */
 @media (max-width: 768px) {
     .calculator {
@@ -75,6 +69,7 @@ body {
         align-items: center;
         gap: 2rem;
         width: auto;
+        padding-top: 30px;
     }
 
     .calculator_form button {
@@ -98,6 +93,10 @@ body {
 @media (max-width: 480px) {
     .container p {
         font-size: 24px;
+    }
+
+    .calculator {
+        padding-top: 30px;
     }
 
     .calculator_form {

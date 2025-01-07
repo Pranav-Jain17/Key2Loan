@@ -45,7 +45,7 @@ body {
 
 .review-heading1 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 0%;
 }
 
@@ -76,13 +76,11 @@ body {
 /* Footer-section */
 .footer-section {
     background-color: #f8f8f8;
-    height: 30vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-/* Media Queries for Responsiveness */
 
 /* Tablet View */
 @media (max-width: 768px) {
@@ -105,14 +103,14 @@ body {
     }
 
     .review-heading1 {
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
 /* Mobile View */
 @media (max-width: 480px) {
     .customer-heading {
-        font-size: 20px;
+        font-size: 24px;
         text-align: center;
         margin-bottom: 1rem;
     }
@@ -131,6 +129,6 @@ body {
     }
 
     .review-heading1 {
-        font-size: 12px;
+        font-size: 18px;
     }
 }

@@ -120,8 +120,6 @@ body {
     width: fit-content;
 }
 
-/* Media Queries for Responsiveness */
-
 /* Tablet View */
 @media (max-width: 768px) {
     .details {

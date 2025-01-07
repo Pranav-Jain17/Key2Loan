@@ -17,9 +17,8 @@ function Features() {
                         tailored to your financial circumstances.
                     </p>
                     <span>
-                        Discover flexible loan options tailored to your needs. Our expert <br />
-                        team is here to guide you <br />
-                        through the process, ensuring a seamless experience.
+                        Discover flexible loan options tailored to your needs. <br />
+                        Our expert team is here to guide you through the process, ensuring a seamless experience.
                     </span>
                 </div>
                 <div className="image">
