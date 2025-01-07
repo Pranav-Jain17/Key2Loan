@@ -62,15 +62,15 @@ function Functionalities() {
                 <p className="steps-heading">How does it works?</p>
                 <div className="steps">
                     <div className="step1">
-                        <img src="/assets/step1.png" alt="step1-image" />
+                        <img src="/assets/Step1.png" alt="step1-image" />
                         <p>Click</p>
                     </div>
                     <div className="step2">
-                        <img src="/assets/step2.png" alt="step2-image" />
+                        <img src="/assets/Step2.png" alt="step2-image" />
                         <p>Fill Form</p>
                     </div>
                     <div className="step3">
-                        <img src="/assets/step3.png" alt="step3-image" />
+                        <img src="/assets/Step3.png" alt="step3-image" />
                         <p>Quick Disbursement</p>
                     </div>
                 </div>
