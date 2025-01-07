@@ -1,0 +1,208 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for details section */
+
+.details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3rem 0rem 3rem 7rem;
+    background-color: #F8F8F8;
+}
+
+.details .textarea {
+    width: calc(60%);
+}
+
+.details .textarea p {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.details .textarea span {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
+
+.details .image {
+    width: calc(40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+}
+
+/* CSS for features section */
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature1,
+.feature2 {
+    display: flex;
+}
+
+.feature-details {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.feature-details1 p {
+    font-size: 20px;
+    font-weight: normal;
+    align-self: flex-start;
+}
+
+.feature-details2 p {
+    font-size: 20px;
+    font-weight: normal;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.feature-details1 {
+    padding-left: 8rem;
+    width: calc(60%);
+}
+
+.feature-details2 {
+    align-items: flex-end;
+    padding-right: 8rem;
+    width: calc(60%);
+}
+
+.feature1 .image {
+    width: calc(40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature2 .image {
+    width: calc(40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features img {
+    width: 25vw;
+    height: 40vh;
+}
+
+.features button {
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet View */
+@media (max-width: 768px) {
+    .details {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .details .textarea {
+        width: 90%;
+        text-align: center;
+    }
+
+    .details .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .feature1,
+    .feature2 {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .feature-details1,
+    .feature-details2 {
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .features img {
+        width: 40vw;
+        height: auto;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+    .details {
+        padding: 1rem;
+    }
+
+    .details .textarea p,
+    .details .textarea span,
+    .feature-details1 p,
+    .feature-details2 p {
+        font-size: 16px;
+    }
+
+    .details .image img,
+    .features img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .features button {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .feature-details1,
+    .feature-details2 {
+        padding: 0.5rem;
+    }
+
+    .feature-details1 p {
+        text-align: left;
+    }
+
+    .feature-details h1 {
+        font-size: 23px;
+    }
+
+    .feature1,
+    .feature2 {
+        gap: 1rem;
+    }
+}

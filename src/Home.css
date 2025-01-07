@@ -1,0 +1,224 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+/* navBar CSS */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem 0 1rem;
+}
+
+.navbar img {
+    cursor: pointer;
+}
+
+.navtext {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navtext button {
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*contactBar CSS */
+
+.contactbar {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 5rem;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.contactbar div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Carousel Section CSS */
+
+.carousel-section {
+    display: flex;
+    gap: 10px;
+    background-color: #F8F8F8;
+}
+
+.textSide {
+    width: calc(60%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.carousel {
+    width: calc(40%);
+    padding: 20px 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.carousel img {
+    width: 300px;
+    height: 300px;
+}
+
+.heading1 {
+    font-size: 40px;
+    margin: 0%;
+    font-weight: bold;
+}
+
+.heading2 {
+    color: rgb(57, 74, 97);
+    font-size: 22px;
+}
+
+span {
+    color: green;
+}
+
+.textSide button {
+    height: 40px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet View */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        padding: 1rem;
+    }
+
+    .navtext {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .contactbar {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 20px;
+    }
+
+    .carousel-section {
+        flex-direction: column;
+    }
+
+    .textSide {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .carousel {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .carousel img {
+        width: 80%;
+        height: auto;
+    }
+
+    .heading1 {
+        font-size: 30px;
+    }
+
+    .heading2 {
+        font-size: 18px;
+    }
+
+    .textSide button {
+        font-size: 16px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navtext {
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-end;
+    }
+
+    .navtext button {
+        font-size: 15px;
+        align-self: right;
+    }
+
+    .navtext img {
+        width: 20px;
+        height: 20px;
+    }
+    .contactbar {
+        font-size: 16px;
+        gap: 1rem;
+    }
+
+    .carousel-section {
+        flex-direction: column;
+    }
+
+    .textSide {
+        padding: 3rem 1rem 1rem 1rem;
+        width: auto;
+    }
+
+    .carousel {
+        width: auto;
+        margin-top: 0%;
+        justify-content: center;
+    }
+
+    .carousel img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .heading1 {
+        font-size: 24px;
+    }
+
+    .heading2 {
+        font-size: 16px;
+    }
+
+    .textSide button {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,123 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.container p {
+    align-self: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator_form {
+    width: calc(60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.calculator_form button {
+    height: 50px;
+    font-size: 18px;
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+.calculator_form input {
+    height: 40px;
+    font-size: 18px;
+    padding: 0px 10px;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    width: auto;
+}
+
+.pieChart {
+    padding: 20px 0px;
+    width: calc(40%);
+    display: flex;
+    justify-content: center;
+}
+
+.pieChart img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet View */
+@media (max-width: 768px) {
+    .calculator {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: auto;
+    }
+
+    .calculator_form button {
+        width: fit-content;
+    }
+
+    .calculator_form input {
+        width: fit-content;
+    }
+
+    .pieChart {
+        padding: 10px 0;
+    }
+
+    .container p {
+        font-size: 32px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+    .container p {
+        font-size: 24px;
+    }
+
+    .calculator_form {
+        padding: 0 1rem;
+    }
+
+    .calculator_form button {
+        font-size: 16px;
+        height: 45px;
+        width: 100%;
+    }
+
+    .calculator_form input {
+        font-size: 16px;
+        height: 35px;
+        width: 100%;
+    }
+
+    .pieChart {
+        padding: 10px 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,243 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for why section */
+.why-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.why-section .left-side,
+.right-side {
+    width: calc(50%);
+}
+
+.why-heading {
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.why-points {
+    padding: 2rem;
+    display: flex;
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.why-point {
+    display: flex;
+    gap: 20px;
+    border: 2px solid #c1bfbf;
+    padding: 4px;
+    border-radius: 12px;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 5rem;
+}
+
+.why-point img {
+    width: 3vw;
+    height: 7vh;
+    background-color: #e2dfdf;
+    padding: 3px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.why-points-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 10px;
+}
+
+.why-detail1 {
+    margin-top: 6px;
+    margin-bottom: 0%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.why-detail2 {
+    margin-top: 6px;
+    font-size: 18px;
+    color: #c1bfbf;
+}
+
+/* CSS for steps section */
+.steps-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 5rem;
+    flex-wrap: wrap;
+}
+
+.step1,
+.step2,
+.step3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.steps img {
+    width: 200px;
+    height: 200px;
+}
+
+.steps-heading {
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.steps p {
+    margin-top: 0%;
+    font-size: 25px;
+    color: rgba(173, 173, 173, 1);
+    align-self: center;
+}
+
+/* CSS for partners section */
+.partners-section {
+    padding-top: 2rem;
+}
+
+.partners-section img {
+    width: 100%;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+    .why-heading,
+    .steps-heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .why-section .left-side,
+    .why-section .right-side {
+        width: 100%;
+    }
+
+    .why-points {
+        padding: 1rem;
+        gap: 20px;
+    }
+
+    .why-point {
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .why-point img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .why-detail1 {
+        font-size: 20px;
+    }
+
+    .why-detail2 {
+        font-size: 16px;
+    }
+
+    .steps {
+        padding: 10px 2rem;
+    }
+
+    .steps img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .steps p {
+        font-size: 20px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+
+    .why-heading,
+    .steps-heading {
+        font-size: 20px;
+    }
+
+    .why-points {
+        padding: 1rem;
+        gap: 10px;
+    }
+
+    .why-point {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .why-point img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .why-point-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .why-detail1 {
+        font-size: 18px;
+    }
+
+    .why-detail2 {
+        font-size: 14px;
+    }
+
+    .steps {
+        flex-direction: column;
+        padding: 10px 1rem;
+        gap: 20px;
+    }
+
+    .steps img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .steps p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .partners-section img {
+        width: 100%;
+    }
+}
