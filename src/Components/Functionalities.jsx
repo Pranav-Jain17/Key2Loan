@@ -10,21 +10,21 @@ function Functionalities() {
                 <div className="why-points">
                     <div className="left-side">
                         <div className="why-point">
-                            <img src="/public/assets/door.svg" alt="door-image" />
+                            <img src="/assets/door.svg" alt="door-image" />
                             <div className="why-point-details">
                                 <p className="why-detail1">Door Step Service</p>
                                 <p className="why-detail2">We come to you for documentation and verification</p>
                             </div>
                         </div>
                         <div className="why-point">
-                            <img src="/public/assets/wallet.svg" alt="wallet-image" />
+                            <img src="/assets/wallet.svg" alt="wallet-image" />
                             <div className="why-point-details">
                                 <p className="why-detail1">Zero Upfront Payment</p>
                                 <p className="why-detail2">No hidden charges or upfront fees</p>
                             </div>
                         </div>
                         <div className="why-point">
-                            <img src="/public/assets/document.svg" alt="document-image" />
+                            <img src="/assets/document.svg" alt="document-image" />
                             <div className="why-point-details">
                                 <p className="why-detail1">Least Documentation</p>
                                 <p className="why-detail2">Minimal paperwork required</p>
@@ -33,21 +33,21 @@ function Functionalities() {
                     </div>
                     <div className="right-side">
                         <div className="why-point">
-                            <img src="/public/assets/percent.svg" alt="percent-image" />
+                            <img src="/assets/percent.svg" alt="percent-image" />
                             <div className="why-point-details">
                                 <p className="why-detail1">Lowest Interest Rate</p>
                                 <p className="why-detail2">Competitive interest rates for all loan types </p>
                             </div>
                         </div>
                         <div className="why-point">
-                            <img src="/public/assets/shield.svg" alt="shield-image" />
+                            <img src="/assets/shield.svg" alt="shield-image" />
                             <div className="why-point-details">
                                 <p className="why-detail1">No Hidden Charges</p>
                                 <p className="why-detail2">Complete transparency in all our services</p>
                             </div>
                         </div>
                         <div className="why-point">
-                            <img src="/public/assets/laptop.svg" alt="laptop-image" />
+                            <img src="/assets/laptop.svg" alt="laptop-image" />
                             <div className="why-point-details">
                                 <p className="why-detail1">Digital Process</p>
                                 <p className="why-detail2">Fast and efficient online application process</p>
@@ -62,15 +62,15 @@ function Functionalities() {
                 <p className="steps-heading">How does it works?</p>
                 <div className="steps">
                     <div className="step1">
-                        <img src="/public/assets/step1.png" alt="step1-image" />
+                        <img src="/assets/step1.png" alt="step1-image" />
                         <p>Click</p>
                     </div>
                     <div className="step2">
-                        <img src="/public/assets/step2.png" alt="step2-image" />
+                        <img src="/assets/step2.png" alt="step2-image" />
                         <p>Fill Form</p>
                     </div>
                     <div className="step3">
-                        <img src="/public/assets/step3.png" alt="step3-image" />
+                        <img src="/assets/step3.png" alt="step3-image" />
                         <p>Quick Disbursement</p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ function Functionalities() {
 
 
             <div className="partners-section">
-                <img src="/public/assets/Partners.png" alt="partners-image" />
+                <img src="/assets/Partners.png" alt="partners-image" />
             </div>
         </div>
     )
